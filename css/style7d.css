@@ -73,6 +73,34 @@ h2, h3 {
     background-color: #7BE;
 }
 
+#rubrik{
+    color: aqua;
+    text-shadow:1px 1px 1px #000000;
+}
+
+#svar{
+    width: 300px;
+    height: 100px;
+    background-color: #7BE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    text-align: center;
+    padding: 37px 0;
+    border-radius: 20px;
+    border: #000000 solid;
+    transition: all 5s, color 1s, transform 4s ;
+    box-shadow: 10px 10px #3f94d5; 
+}
+
+#svar:hover{
+    color: white;
+    background-color:#eea077;
+    border-color: white;
+    box-shadow: 10px 10px #d5763f;
+    transform: rotate(360deg);
+}
+
 @media screen and (max-width:500px){
     
     body{
